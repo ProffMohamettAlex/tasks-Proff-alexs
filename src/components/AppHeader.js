@@ -19,7 +19,7 @@ function AppHeader() {
   return (
     <div className={styles.appHeader}>
       <Button variant="primary" onClick={() => setModalOpen(true)}>
-       Kudar Howl Malmed
+       Kudar Howl Malmeed
       </Button>
       <SelectButton
         id="status"
