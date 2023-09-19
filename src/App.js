@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <PageTitle>Liiska Howl Maadmeedka</PageTitle>
+        <PageTitle>Liiska Howl Maalmedkaga</PageTitle>
         <div className={styles.app__wrapper}>
           <AppHeader />
           <AppContent />
