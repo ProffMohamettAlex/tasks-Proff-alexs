@@ -19,7 +19,7 @@ function AppHeader() {
   return (
     <div className={styles.appHeader}>
       <Button variant="primary" onClick={() => setModalOpen(true)}>
-        Add Task
+       Kudar Howl Malmed
       </Button>
       <SelectButton
         id="status"
@@ -27,8 +27,8 @@ function AppHeader() {
         value={filterStatus}
       >
         <option value="all">All</option>
-        <option value="incomplete">Incomplete</option>
-        <option value="complete">Completed</option>
+        <option value="incomplete">Ma Qaban</option>
+        <option value="complete">Waan Qabtay</option>
       </SelectButton>
       <TodoModal type="add" modalOpen={modalOpen} setModalOpen={setModalOpen} />
     </div>
